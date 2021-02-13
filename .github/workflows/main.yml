@@ -33,4 +33,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deploying on surge 
-        run: surge ./ http://ambitious-nail.surge.sh/ --token $ {{ secrets.SECRETCODE }}
+        run: surge ./ http://ambitious-nail.surge.sh/ --token ${{ secrets.SECRETCODE }}
